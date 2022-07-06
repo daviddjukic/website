@@ -3,6 +3,8 @@
 	padding: 0;
 }
 
+
+
 h1{
 	font-size: 3em;
 	text-align: center;
@@ -16,12 +18,21 @@ h2{
 p{
 	font-size: 1em;
 	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
-section{
+
+.first-section{
 	margin-bottom: 100px;
 }
 
-section.header{
-	background: linear-gradient(#e66465, #9198e5);
+.second-section{
+	margin-bottom: 100px;
+	background: lightgray;
+}
+
+.last-section{
+	background: black;
+	color: whitesmoke;
 }
