@@ -7,6 +7,8 @@ a{
 	color: inherit;
 	text-decoration: none;
 }
+
+
 body{
 	padding-bottom: 0px;
 	background: black;
@@ -17,6 +19,7 @@ body{
 h1{
 	font-size: 4em;
 	text-align: center;
+	color: tomato;
 }
 
 h2{
@@ -33,17 +36,17 @@ p{
 }
 
 .job{
-	color: rgb(163, 14, 0);
-	font-size: 25px;
+	
+	font-size: 29px;
 }
 .graduate{
-	color: tomato;
+	
 	font-size: 20px;
 }
  
 .based{
-	color: rgb(240, 233, 108);
-	font-size: 20px;
+
+		font-size: 20px;
 }
 
 section{
@@ -64,7 +67,9 @@ section{
 	margin-bottom: 20px;
 }
 
-
+.projects{
+	color: tomato;
+}
 .buttons{
 	padding: 6px 24px 9px;
 margin: 0 5px;
