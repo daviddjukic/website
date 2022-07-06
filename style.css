@@ -21,3 +21,7 @@ p{
 section{
 	margin-bottom: 100px;
 }
+
+section.header{
+	background: linear-gradient(#e66465, #9198e5);
+}
