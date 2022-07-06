@@ -15,24 +15,41 @@ body{
 
 }
 h1{
-	font-size: 3em;
+	font-size: 4em;
 	text-align: center;
 }
 
 h2{
-	font-size: 1.8em;
+	font-size: 50px;
 	text-align: center;
 }
 
 p{
-	font-size: 1em;
+	font-size: 25px;
 	text-align: center;
 	padding-left: 100px;
 	padding-right: 100px;
 	display: block;
 }
 
+.job{
+	color: rgb(163, 14, 0);
+	font-size: 25px;
+}
+.graduate{
+	color: tomato;
+	font-size: 20px;
+}
+ 
+.based{
+	color: rgb(240, 233, 108);
+	font-size: 20px;
+}
 
+section{
+	width: 85%;
+	margin: 0 auto;
+}
 .first-section{
 	margin-bottom: 100px;
 }
@@ -44,17 +61,20 @@ p{
 .last-section{
 	background: black;
 	color: whitesmoke;
+	margin-bottom: 20px;
 }
 
+
 .buttons{
-	padding: 6px 24px 0px;
+	padding: 6px 24px 9px;
 margin: 0 5px;
 display: inline;
-font-size: 1em;
+font-size: 20px;
 font-weight: 300;
-line-height: 35px;
+line-height: 30px;
 letter-spacing: -1px;
 background: tomato;
 border-radius: 225px;
 text-decoration: none;
+color: white;
 }
