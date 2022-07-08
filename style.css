@@ -23,6 +23,18 @@ h1{
 	padding-top: 10px;
 }
 
+.contact{
+	padding-top: 35px;
+	padding-right: 100px;
+	position:absolute; top:0; right:0;
+
+}
+
+.based{
+	position: absolute; top: 0; left: 0;
+	padding-top: 35px;
+	font-size: 20px;
+}
 h2{
 	font-size: 50px;
 	text-align: center;
@@ -31,8 +43,8 @@ h2{
 p{
 	font-size: 25px;
 	text-align: center;
-	padding-left: 100px;
-	padding-right: 100px;
+	width: 85%;
+	margin: 0 auto;
 	display: block;
 }
 
@@ -45,28 +57,15 @@ p{
 	font-size: 20px;
 }
  
-.based{
-
-		font-size: 20px;
-}
-
 section{
-	width: 85%;
+	width: 95%;
 	margin: 0 auto;
+	margin-bottom: 100px;
 }
-.first-section{
-	margin-bottom: 70px;
-}
-
-.second-section{
-	margin-bottom: 70px;
-}
-
 .last-section{
-	padding-top: 100px;
 	background: #222;
 	color: whitesmoke;
-	margin-bottom: 20px;
+	margin-bottom: 100px;
 }
 
 .project{
@@ -81,8 +80,9 @@ section{
 .projects p{
 	padding-top: 20px;
 }
+
 .buttons{
-	padding: 6px 24px 9px;
+	padding: 10px 24px 9px;
 margin: 0 5px;
 display: inline;
 font-size: 20px;
@@ -92,5 +92,4 @@ letter-spacing: -1px;
 background: tomato;
 border-radius: 225px;
 text-decoration: none;
-color: white;
 }
