@@ -11,7 +11,7 @@ a{
 
 body{
 	padding-bottom: 0px;
-	background: black;
+	background: #222;
 	color: white;
 	font-family: sans-serif;
 
@@ -20,6 +20,7 @@ h1{
 	font-size: 4em;
 	text-align: center;
 	color: tomato;
+	padding-top: 10px;
 }
 
 h2{
@@ -54,21 +55,31 @@ section{
 	margin: 0 auto;
 }
 .first-section{
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 }
 
 .second-section{
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 }
 
 .last-section{
-	background: black;
+	padding-top: 100px;
+	background: #222;
 	color: whitesmoke;
 	margin-bottom: 20px;
 }
 
-.projects{
+.project{
 	color: tomato;
+}
+.projects img{
+	width: 200px;
+	padding-top: 20px;
+	display: block;
+	margin: 0 auto;
+}
+.projects p{
+	padding-top: 20px;
 }
 .buttons{
 	padding: 6px 24px 9px;
